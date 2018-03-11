@@ -25,7 +25,7 @@
       })
 
       $('#send').on('click', function() {
-        //console.log($('#myMensaje').val());
+        console.log($('#myMensaje').val());
         socket.send($('#myMessage').val());
         $('#myMessage').val('');
       })
